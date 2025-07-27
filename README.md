@@ -1,7 +1,7 @@
 # Recovery Demo
 
 
-## Reflog after --orce push
+## Reflog after --force push
 
 ![alt text](images/image.png)
 
@@ -48,7 +48,6 @@ git rebase --continue
 git reflog
 git push origin master --force-with-lease
 git status
-git push origin master --force-with-lease
 git log --oneline
 git reflog
 git status
